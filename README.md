@@ -74,8 +74,8 @@ Para colocar esse projeto de um Assistente de Delivery com AWS Step Functions e 
 
 - **Tecnologias:**
 
-        React.js: Popular para criar interfaces dinâmicas de usuário.
-        Vue.js ou Angular: Alternativas para React.
+   - **React.js:** Popular para criar interfaces dinâmicas de usuário.
+   - **Vue.js ou Angular:** Alternativas para React.
 
 - **Comunicação:** O frontend se comunicaria com suas funções Lambda usando APIs (AWS API Gateway).
 
@@ -85,7 +85,7 @@ Para colocar esse projeto de um Assistente de Delivery com AWS Step Functions e 
 
 - **Tecnologia:**
 
-        AWS Cognito: Um serviço de autenticação e autorização que permite integrar logins de usuários e gerenciar permissões.
+   - **AWS Cognito:** Um serviço de autenticação e autorização que permite integrar logins de usuários e gerenciar permissões.
 
 - **Linguagem:** O Cognito pode ser configurado usando a interface AWS e integrado ao backend via chamadas API ou SDK.
 
