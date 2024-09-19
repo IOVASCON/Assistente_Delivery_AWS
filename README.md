@@ -137,26 +137,26 @@ Para colocar esse projeto de um Assistente de Delivery com AWS Step Functions e 
 
 ## Estrutura Sugerida para o Projeto
 
-/Assistente_Delivery_AWS/
-│
-├── /src/                          # Código-fonte do projeto
-│   ├── /lambda_functions/          # Funções Lambda usadas no projeto
-│   │   ├── suggest_food.js         # Função Lambda para sugerir comida
-│   │   ├── suggest_drink.js        # Função Lambda para sugerir bebida
-│   │   ├── suggest_location.js     # Função Lambda para sugerir localização
-│   │   └── compile_menu.js         # Função Lambda para compilar o menu
-│   ├── /infra/                     # Infraestrutura como código
-│   │   └── step_function.json      # Definição da máquina de estado no Step Functions (JSON)
-│   └── /tests/                     # Testes para as funções Lambda (caso sejam implementados)
-│       ├── test_suggest_food.js    # Teste para a função de sugestão de comida
-│       ├── test_suggest_drink.js   # Teste para a função de sugestão de bebida
-│       └── test_compile_menu.js    # Teste para a função de compilação de menu
-│
-├── /doc/                           # Documentação do projeto
-│   └── e-book_aws_assistente_delivery.pdf  # E-book com explicações detalhadas sobre o projeto
-│
-├── README.md                       # Arquivo principal com explicações, JSON comentado e objetivos
-└── .gitignore                      # Arquivo para ignorar dependências e arquivos desnecessários no Git
+    /Assistente_Delivery_AWS/
+    │
+    ├── /src/                          # Código-fonte do projeto
+    │   ├── /lambda_functions/          # Funções Lambda usadas no projeto
+    │   │   ├── suggest_food.js         # Função Lambda para sugerir comida
+    │   │   ├── suggest_drink.js        # Função Lambda para sugerir bebida
+    │   │   ├── suggest_location.js     # Função Lambda para sugerir localização
+    │   │   └── compile_menu.js         # Função Lambda para compilar o menu
+    │   ├── /infra/                     # Infraestrutura como código
+    │   │   └── step_function.json      # Definição da máquina de estado no Step Functions (JSON)
+    │   └── /tests/                     # Testes para as funções Lambda (caso sejam implementados)
+    │       ├── test_suggest_food.js    # Teste para a função de sugestão de comida
+    │       ├── test_suggest_drink.js   # Teste para a função de sugestão de bebida
+    │       └── test_compile_menu.js    # Teste para a função de compilação de menu
+    │
+    ├── /doc/                           # Documentação do projeto
+    │   └── e-book_aws_assistente_delivery.pdf  # E-book com explicações detalhadas sobre o projeto
+    │
+    ├── README.md                       # Arquivo principal com explicações, JSON comentado e objetivos
+    └── .gitignore                      # Arquivo para ignorar dependências e arquivos desnecessários no Git
 
 ### Nota Importante
 
