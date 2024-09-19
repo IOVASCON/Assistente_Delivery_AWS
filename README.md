@@ -158,6 +158,10 @@ Para colocar esse projeto de um Assistente de Delivery com AWS Step Functions e 
 ├── README.md                       # Arquivo principal com explicações, JSON comentado e objetivos
 └── .gitignore                      # Arquivo para ignorar dependências e arquivos desnecessários no Git
 
+### Nota Importante
+
+Os arquivos `.js` mencionados na estrutura acima, localizados na pasta **/lambda_functions/** e **/tests/**, estão **vazios**. Eles foram incluídos apenas como sugestões para um projeto completo, onde as funções Lambda e testes poderiam ser implementados para sugerir comida, bebida, localização e compilar um menu. A intenção é que eles sirvam de ponto de partida para futuras implementações.
+
 ## Código JSON do Step Functions (Comentado)
 
     {
